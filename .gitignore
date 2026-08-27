@@ -1,0 +1,17 @@
+# Security
+#aws-key.pem
+#.env
+
+# Virtual Environments
+#.venv/
+__pycache__/
+tbs/
+
+# Massive Data Files
+*.csv
+*.zip
+*.parquet
+#processed_paysim.parquet/
+
+# Large Model Files (Optional, but recommended for GitHub's 100MB limit)
+#models/*.pth
