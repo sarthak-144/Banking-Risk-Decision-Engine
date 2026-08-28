@@ -13,5 +13,5 @@ tbs/
 *.parquet
 #processed_paysim.parquet/
 
-# Large Model Files (Optional, but recommended for GitHub's 100MB limit)
+# Large Model Files
 #models/*.pth
