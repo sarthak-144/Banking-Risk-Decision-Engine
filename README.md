@@ -19,7 +19,7 @@ This project utilizes a dual-model architecture to handle separate business doma
 * **Input:** Massive transfer counts, average & max balance discrepancies
 * **Layers:** 
     * Encoder: Dense (16) -> ReLU -> Dense (4) -> ReLU
-    * Decoder: Dense (16) -> ReLU -> Dense (3)
+    * Decoder: Dense (4) -> ReLU -> Dense (16)
 * **Optimizer:** Adam
 * **Loss Function:** Mean Squared Error (MSE) - *High reconstruction error flags fraud.*
 
